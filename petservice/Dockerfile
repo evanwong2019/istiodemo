@@ -1,7 +1,7 @@
 # Dockerfile extending the generic Node image with application files for a
 # single application.
 #FROM gcr.io/google_appengine/nodejs
-FROM nodejs
+FROM node
 
 # Check to see if the the version included in the base runtime satisfies
 # '>=0.12.7', if not then do an npm install of the latest available
