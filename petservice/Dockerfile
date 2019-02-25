@@ -20,3 +20,4 @@ RUN npm install --unsafe-perm || \
       cat npm-debug.log; \
     fi) && false)
 CMD npm start
+
